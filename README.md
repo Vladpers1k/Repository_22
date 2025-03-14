@@ -20,12 +20,12 @@ server.js # Головний серверний файл
 
 ## Запуск
 
-не забудьте вставновити залежності:
-Відкрийте Terminal
-npm install express pug ejs
-express – для створення сервера
-pug – шаблонізатор для рендерингу сторінок /users
-ejs – шаблонізатор для рендерингу сторінок /articles
-а потім
-npm install
-npm start
+- не забудьте вставновити залежності:
+- Відкрийте Terminal
+- npm install express pug ejs
+- express – для створення сервера
+- pug – шаблонізатор для рендерингу сторінок /users
+- ejs – шаблонізатор для рендерингу сторінок /articles
+- а потім
+- npm install
+- npm start
