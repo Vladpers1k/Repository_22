@@ -1,8 +1,31 @@
-# Проект на Express.js з PUG та EJS
+# Express Server with PUG & EJS
 
-## Опис проекту
+## Опис
 
-Цей сервер на Node.js використовує Express.js для рендерингу сторінок:
+Сервер на **Node.js + Express**, що використовує **PUG** і **EJS** для рендерингу сторінок.
 
-- `PUG` для відображення користувачів (`/users`, `/users/:userId`).
-- `EJS` для відображення статей (`/articles`, `/articles/:articleId`).
+### Структура:
+
+/views # PUG та EJS шаблони
+/public # CSS стилі
+server.js # Головний серверний файл
+
+#### Маршрути:
+
+- `/` — Головна сторінка
+- `/users` — Список користувачів (PUG)
+- `/users/:userId` — Деталі користувача (PUG)
+- `/articles` — Список статей (EJS)
+- `/articles/:articleId` — Деталі статті (EJS)
+
+## Запуск
+
+не забудьте вставновити залежності:
+Відкрийте Terminal
+npm install express pug ejs
+express – для створення сервера
+pug – шаблонізатор для рендерингу сторінок /users
+ejs – шаблонізатор для рендерингу сторінок /articles
+а потім
+npm install
+npm start
